@@ -10,11 +10,20 @@ class DayOneSolutionTest extends TestCase
         $this->dayOneSolution = new DayOneSolution();
     }
 
-    public function testOutput()
+    public function testDayOneSolutionPart1()
     {
-        $runSolution = $this->dayOneSolution->solution();
+        $runSolution = $this->dayOneSolution->solutionPart1();
 
         $this->assertEquals(74711, $runSolution);
 
     }
+
+    public function testDayOneSolutionPart2()
+    {
+        $runSolution = $this->dayOneSolution->solutionPart2();
+
+        $this->assertEquals(209481, $runSolution);
+
+    }
+
 }
