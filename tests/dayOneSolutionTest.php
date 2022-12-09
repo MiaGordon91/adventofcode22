@@ -14,6 +14,7 @@ class DayOneSolutionTest extends TestCase
     {
         $runSolution = $this->dayOneSolution->solution();
 
-        $this->assertEquals(24000, $runSolution);
+        $this->assertEquals(74711, $runSolution);
+
     }
 }
